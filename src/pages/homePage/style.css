@@ -1,0 +1,83 @@
+.WelcomeBanner{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px;
+}
+.leftBanner h3{
+    border-radius: 30px;
+    background-color: #058B8C;
+    width: 111px;
+    height: 29px;
+    padding-left: 10px;
+    padding-top: 15px;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px;
+}
+.leftBanner{
+    padding-top: 90px;
+}
+.leftBanner h1{
+color: #1E1E1E;
+font-family: Rubik;
+font-size: 65px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -3.6px;
+margin-top: -11px;
+}
+.leftBanner h1 span{
+    color: #058B8C;;
+}
+.leftBanner h2{
+    margin-top: 25px;
+    color: #1E1E1E;
+font-family: Rubik;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.8px;
+}
+.leftBanner p{
+    width: 384px;
+    flex-shrink: 0;
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.contact_learn_more{
+    display: flex;
+    gap: 25px;
+}
+.contact_learn_more button{
+    width: 115px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+}
+.contact_learn_more button:hover{
+    background-color: #8D0F11;
+    color: #FFF;
+}
+
+ /* .................. */
+/* image css */
+.bannerImg{
+    width: 142px;
+height: 400px;
+flex-shrink: 0;
+border-radius: 60px;
+margin: auto;
+}

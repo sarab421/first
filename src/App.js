@@ -1,4 +1,3 @@
-import Layout from "./Layout";
 import {Routes,Route} from "react-router-dom";
 import ContactUsPage from "./pages/contactPage";
 import HomePage from "./pages/homePage";

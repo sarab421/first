@@ -1,16 +1,17 @@
 import React from 'react'
 import footer_logo_img from '../images/Logo.png'
-const Footer = (props) => {
+import {BsFillTelephoneFill} from 'react-icons/bs'
+const Footer = () => {
   return (
     <>
 
       <section>
-        <div className="page_width">
+        
           <div className="quick_service">
             <h2>Quick Service On Emergency</h2>
-            <a href='tel:+923086112359'> {props.telIcon} <span>+92 308 6112359</span></a>
+            <a href='tel:+923086112359'> <BsFillTelephoneFill /> <span>+92 308 6112359</span></a>
           </div>
-        </div>
+       
       </section>
       <footer>
         <div className="page_width">

@@ -1,11 +1,14 @@
 import React from 'react'
-import Layout from '../../Layout'
+import Header from '../../Layout/header'
+import Footer from '../../Layout/footer'
 
 const ServicePage = () => {
   return (
-    <Layout>
-      <div> ServicePage</div>
-    </Layout>
+    <>
+    <Header />
+    <div> ServicePage</div>
+    <Footer />
+    </>
   )
 }
 
