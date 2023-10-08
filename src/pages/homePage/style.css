@@ -74,9 +74,13 @@ letter-spacing: -1.8px;
 
  /* .................. */
 /* image css */
+.bannerImg img{
+    width: 100%;
+    border-radius: 234px;
+}
 .bannerImg{
-    width: 142px;
-height: 400px;
+    width: 430px;
+    height: 482px;
 flex-shrink: 0;
 border-radius: 60px;
 margin: auto;
