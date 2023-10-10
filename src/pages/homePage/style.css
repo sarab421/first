@@ -1,3 +1,16 @@
+.banner_section{
+    background-image: url('../../images/blue_moon.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 374px;
+    padding: 25px 0px;
+    margin-bottom: 30px;
+
+}
+
+/* .rightImageBanner{
+    margin-top: 20px;
+} */
 .WelcomeBanner{
     width: 100%;
     display: grid;
@@ -59,12 +72,12 @@ letter-spacing: -1.8px;
     gap: 25px;
 }
 .contact_learn_more button{
-    width: 115px;
-    height: 32px;
+    width: 136px;
+    height: 36px;
     flex-shrink: 0;
     border-radius: 30px;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 600;
 }
 .contact_learn_more button:hover{
@@ -77,11 +90,105 @@ letter-spacing: -1.8px;
 .bannerImg img{
     width: 100%;
     border-radius: 234px;
+    padding-left: 20px;
 }
 .bannerImg{
     width: 430px;
-    height: 482px;
 flex-shrink: 0;
 border-radius: 60px;
 margin: auto;
+float: right;
+background-image: url('../../images/grey_image_background.png');
+background-position: left center;
+background-size: 386px;
+
+background-repeat: no-repeat;
+}
+
+
+
+/* after Welcome Banner section  */
+
+
+.icons_after_banner_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.after_banner_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 95px;
+}
+
+.after_welcome_banner_section{
+    margin-bottom: 40px;
+}
+.icons_after_banner_section div img{
+    width: 100%;
+}
+.icons_after_banner_section div{
+    height: 149px;
+    width: 116px;
+    margin-right: 14px;
+}
+
+.icons_after_banner_section h2{
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; 
+}
+
+
+
+/* who we are section */
+
+
+.who_we_are{
+    display: flex;
+    gap: 50px;
+}
+
+.who_we_are_img_container{
+    width: 368px;
+    height: 418px;
+}
+
+.who_we_are_img_container img{
+    width: 100%;
+}
+.right_banner p{
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    width: 678px;
+    height: 133px;
+flex-shrink: 0;
+}
+.right_banner h2{
+    color: #1E1E1E;
+font-family: Rubik;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.8px;
+}
+
+.right_banner span{
+    color: #058B8C;
+font-family: Rubik;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.8px;
 }
