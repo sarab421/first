@@ -6,6 +6,7 @@ import serviceHours from '../../images/twenty-four-hours-sevice.svg'
 import price from '../../images/resonable-price.svg'
 import team from '../../images/experienced-team.svg'
 import Img_who_we_are from '../../images/who_we_are.svg'
+import Components from './componenets'
 import './style.css'
 const HomePage = () => {
   return (
@@ -57,6 +58,7 @@ const HomePage = () => {
         <div className="page_width">
           <div className="our_services_section">
             <h2>Explore our <span>Services</span></h2>
+            <Components/>
           </div>
         </div>
       </section>

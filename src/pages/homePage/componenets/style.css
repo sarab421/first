@@ -1,0 +1,59 @@
+.contentContainer{
+    width: 228px;
+    height: 285px;
+    
+   
+    
+}
+
+.container{
+    margin-bottom: 80px;
+    position: relative;
+}
+.contentContainer img{
+    width: 100%;
+    border-radius: 0px 0px 30px 30px;
+}
+.overlay{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    left: 0px;
+    width: 228px;
+    height: 171px;
+    border-radius: 0px 0px 30px 30px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 16.85%, #FFF 73.55%);
+}
+.overlay_insider h2{
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+.overlay_insider button{
+    /* display: none; */
+    width: 141px;
+    height: 36px;
+flex-shrink: 0;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+border:2px solid rgba(255, 255, 255, 1);
+border-radius: 23px;
+}
+.contentContainer:hover{
+    background: rgba(30, 30, 30, 1);
+ border-radius: 30px;
+ opacity: 0.6;
+
+}
