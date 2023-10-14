@@ -35,8 +35,8 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 16.85%, #FFF 73.55
     line-height: 36px;
     margin-bottom: 12px;
 }
-.overlay_insider button{
-    /* display: none; */
+.overlay button{
+    display: none;
     width: 141px;
     height: 36px;
 flex-shrink: 0;
@@ -52,8 +52,19 @@ border:2px solid rgba(255, 255, 255, 1);
 border-radius: 23px;
 }
 .contentContainer:hover{
-    background: rgba(30, 30, 30, 1);
+    background: rgba(30, 30, 30, 0.6);
  border-radius: 30px;
  opacity: 0.6;
+ 
 
+}
+
+.contentContainer:hover .overlay {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+        
+}
+.contentContainer:hover .overlay button{
+    display: block;
 }

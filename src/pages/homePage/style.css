@@ -192,3 +192,46 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: -1.8px;
 }
+.component_container{
+    display: flex;
+    gap: 27px;
+}
+
+.company_authority{
+    background-color: #058B8C;
+    margin-bottom: 30px;
+    padding: 70px 100px 40px 100px;
+    display: flex;
+    gap: 35px;
+}
+.left_side h2{
+    color: #FFF;
+  
+font-family: Rubik;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.8px;
+}
+.left_side h2 span{
+    color: #FFF;
+font-family: Rubik;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.8px;
+}
+
+
+.right_side .img_container{
+    width: 300px;
+    height: 450px;
+}
+.img_container img{
+    width: 100%;
+}
+.left_side p{
+    margin: 30px 0px 30px 0px;
+}

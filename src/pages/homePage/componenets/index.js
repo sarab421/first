@@ -1,14 +1,14 @@
 import React from 'react'
-import Ac_service_img from '../../../images/Ac_service_img.png'
+
 import './style.css'
-const Components = () => {
+const Components = (props) => {
   return (
     <div className='container'> 
     <div className="contentContainer">
-      <img src={Ac_service_img} />  
+      <img src={props.img} />  
     <div className="overlay">
       <div className="overlay_insider">
-        <h2>Ac Service</h2>
+        <h2>{props.caption}</h2>
         <button>BOOK NOW</button>
       </div>
       

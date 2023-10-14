@@ -7,6 +7,11 @@ import price from '../../images/resonable-price.svg'
 import team from '../../images/experienced-team.svg'
 import Img_who_we_are from '../../images/who_we_are.svg'
 import Components from './componenets'
+import Ac_service_img from '../../images/Ac_service_img.png'
+import dusk_cleaning from '../../images/Dust_cleaning_img_component.svg'
+import handy_man from '../../images/Handy_man_img_component.svg'
+import pluming from '../../images/Pluming_img_component.svg'
+import comapny_authority from '../../images/company_authority_img.svg'
 import './style.css'
 const HomePage = () => {
   return (
@@ -58,7 +63,12 @@ const HomePage = () => {
         <div className="page_width">
           <div className="our_services_section">
             <h2>Explore our <span>Services</span></h2>
-            <Components/>
+            <div className="component_container">
+              <Components img={Ac_service_img} caption="AC Service" />
+              <Components img={dusk_cleaning} caption="Dust Cleaning" />
+              <Components img={handy_man} caption="Handyman" />
+              <Components img={pluming} caption="Plumbing" />
+            </div>
           </div>
         </div>
       </section>
@@ -76,6 +86,22 @@ const HomePage = () => {
 
             </div>
 
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <div className="company_authority">
+          <div className="left_side">
+            <h2>Company <span>Authority</span></h2>
+            <p>Basically, finding the right person to do up the works is very much important and for that, there are certain things you should keep in mind while appointing a service man. Analyze the best service provider who can perform the works well and give you desired results. You can search for professional home service companies online and get the best company that meets up your demands.</p>
+            <p>Home Comfort is a leading multiple service provider company catering to your 360 needs with quality guaranteed. The aim and priority of Home Comfort are to add value to our consumers’ lives by providing smart solutions to all their problems. Our pride is providing the most extensive range of services. From home maintenance to personal assistance.</p>
+          </div>
+          <div className="right_side">
+            <div className="img_container">
+              <img src={comapny_authority} />
+            </div>
           </div>
         </div>
       </section>
