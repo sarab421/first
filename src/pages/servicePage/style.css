@@ -1,0 +1,51 @@
+.our_services_service_page{
+    border-radius: 30px;
+    background-color: #058B8C;
+    width: 85px;
+    height: 22px;
+    flex-shrink: 0;
+    padding: 3px 12px;
+    font-size: 12px;
+}
+.left_side h1{
+    font-size: 27px;
+    font-weight: 700;
+}
+.cleaning_service{
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+.left_side button{
+    border-radius: 30px;
+    padding: 6px 18px;
+}
+.space_between_buttons{
+   display: flex;
+   gap: 15px;
+}
+.space_between_buttons button:hover{
+    background: #8D0F11;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    color: #fff;
+    
+}
+.cleaning_service_first_section{
+   display: flex;
+   justify-content: space-between;
+}
+.image_container{
+    height: 400px;
+    width: 200px; 
+}
+.image_container img{
+    max-width: 100%;
+  max-height: 100%;
+}
+.left_side{
+    margin-top: 60px;
+}
