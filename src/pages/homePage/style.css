@@ -201,8 +201,9 @@ letter-spacing: -1.8px;
     background-color: #058B8C;
     margin-bottom: 30px;
     padding: 70px 100px 40px 100px;
-    display: flex;
-    gap: 35px;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 50px;
 }
 .left_side h2{
     color: #FFF;
@@ -227,11 +228,37 @@ letter-spacing: -1.8px;
 
 .right_side .img_container{
     width: 300px;
-    height: 450px;
+    height: 298px;
+    border-radius: 147px  !important;
+    overflow: hidden;
 }
 .img_container img{
     width: 100%;
 }
 .left_side p{
     margin: 30px 0px 30px 0px;
+}
+
+
+
+
+/* Our Client Section */
+
+.our_clients h2, .our_clients p{
+text-align: center;
+}
+.clients_grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.our_clients h2{
+    font-size: 50px;
+}
+.our_clients span{
+    color: #058B8C;
+}
+
+.our_client_section{
+    margin-bottom: 50px;
 }

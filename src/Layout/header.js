@@ -7,12 +7,34 @@ const Header = () => {
     <header>
      <div className="page_width">
         <div className="nav_desktop">
-            <div className="logo"><img src={Logo} alt="Logo Image" /></div>
+            <div className="logo"><img src={Logo} alt="Logo" /></div>
             <nav>
                 <ul>
-                    <li className='paddinggive'><Link to="/">Home</Link></li>
-                    <li className='paddinggive'><Link to="/service">Services</Link></li>
-                    <li className='paddinggive'><Link to="/contact-us">Contact Us</Link></li>
+                    <li className='paddinggive '>
+                      <Link to="/">Home</Link>
+                      </li>
+                    <li className='paddinggive service_bar'><Link to="/service">Services</Link>
+                    <div className="inner_bar_open">
+                        <ol>
+                          <li>AC Services</li>
+                          <hr />
+                          <li>Duct Cleaning</li>
+                          <hr />
+                          <li>Handyman</li>
+                          <hr />
+                          <li>Plumbing</li>
+                          <hr />
+                          <li>Electrical</li>
+                          <hr />
+                          <li>Painting</li>
+                          <hr />
+                          <li>Water Tank Cleaning</li>
+                        </ol>
+                        </div>
+                    </li>
+                    <li className='paddinggive'><Link to="/contact-us">Contact Us</Link>
+                   
+                    </li>
                     <li id='phoneText'><a href="tel:+923086112359" ><BsFillTelephoneFill /><span> +92 308 6112359</span></a></li>
                 </ul>
             </nav>
