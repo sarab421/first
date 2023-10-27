@@ -2,11 +2,16 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import Logo from '../images/Logo.png'
 import {BsFillTelephoneFill} from 'react-icons/bs'
+import { FaBars } from "react-icons/fa";
+import '../responsive/responsive.css'
 const Header = () => {
   return (
     <header>
      <div className="page_width">
         <div className="nav_desktop">
+          <div className="menu_bars">
+            <FaBars/>
+          </div>
             <div className="logo"><img src={Logo} alt="Logo" /></div>
             <nav>
                 <ul>

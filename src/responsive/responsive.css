@@ -1,0 +1,19 @@
+@media only screen and (max-width: 850px){
+.nav_desktop .menu_bars{
+    display: block;
+}
+.nav_desktop nav ul li a{
+    display: none;
+}
+.nav_desktop nav ul li:last-child a{
+    display: block;
+}
+
+.nav_desktop nav ul li:last-child a span{
+    display: none;
+}
+.nav_desktop{
+    display: flex;
+    justify-content: space-between;
+}
+}

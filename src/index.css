@@ -18,9 +18,9 @@ body {
 
 .page_width {
   /* width: 1250px; */
- margin:auto;
- padding-left: 120px !important;
- padding-right: 120px !important;
+  width: 100%;
+
+padding: 0px 50px;
 }
 
 body{
@@ -33,12 +33,16 @@ body{
 
 .nav_desktop {
   display: flex;
-  flex-direction: row;
+  width: 100%;
+  /* flex-direction: row; */
   justify-content: space-between;
   align-items: center;
-  /* margin-left: 120px !important;
-  margin-right: 120px !important;  */
+
   margin: 20px 0px;
+}
+
+.nav_desktop .menu_bars{
+  display: none;
 }
 
 .nav_desktop nav ul {
